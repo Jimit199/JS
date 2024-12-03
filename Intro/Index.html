@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Intro to JS apps!</title>
+    </head>
+    <body>
+        <h1>Intro to JS!</h1>
+        <script>
+            var choice = prompt("Welcome to the area calculator!\n1.area of rectangle\n 2.area of parrallelogram\n 3.area of triangle");
+        
+        if (choice =='1') {
+            var l = prompt('Enter the Length')
+            var b = prompt('Enter the width')
+            var result = Number(l) * Number(b)
+            alert('The Area is '+ result)
+        }
+        if( choice == '2') {
+            var h = prompt('Enter the height')
+            var b = prompt('Enter the base')
+            var result = (Number(h) * Number(b)) /2
+            alert('The area is '+ result)
+        }
+
+        if (choice == '3'){
+            var h = prompt('Enter the height')
+            var b = prompt(' Enter the base')
+            var result = 0.5 *Number(h) * Number(b)
+            alert('The area is ' + result)
+        }
+        </script>
+    </body>
+</html>
